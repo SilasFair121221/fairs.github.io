@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Reset some default margin and padding */
+        body, h1, h2, h3, p, ul, li {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Basic styling for body */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f8f8f8;
+            color: #323b3e;
+        }
+
+        /* Header styling */
+        header {
+            background-color: #3da7ac;
+            color: #fff;
+            text-align: center;
+            padding: 2rem 0;
+        }
+
+        /* Navigation styling */
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            background-color: #2a7275;
+            padding: 1rem 0;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: rgb(239, 239, 239);
+            padding: 0.5rem 1rem;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #444;
+        }
+
+        /* Project section styling */
+        .project {
+            margin: 2rem;
+            padding: 1.5rem;
+            border: 1px solid #cee1e3;
+            background-color: #ffffff;
+            box-shadow: 0 2px 4px #0b2628;
+            border-radius: 5px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .project h3 {
+            color: #555;
+        }
+
+        .project img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 1rem;
+            border-radius: 5px;
+        }
+
+        /* Footer styling */
+        footer {
+            background-color: #3da7ac;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+    </style>
+    <title>Silas Fair - Portfolio</title>
+</head>
+<body>
+    <header>
+        <h1>Silas Fair</h1>
+        <p>Senior Computer Science and Asian Studies Major</p>
+        <p>Track and Cross Country Competitor</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#internship">Internship</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Team Maker Website</h3>
+            <p>Worked on the design of <a href="http://www.TeamMakeronline.com">Team Maker</a> website. Head of algorithm design for the project.</p>
+            <img src="team-maker.jpg" alt="Team Maker Website">
+        </div>
+        <div class="project">
+            <h3>Folkhouse Retreat Website</h3>
+            <p>Created a website for <a href="https://www.chinafolkhouse.org/">Folkhouse Retreat</a>. Wrote a museum entry for agriculture from the region where the house was brought from.</p>
+            <img src="folkhouse-retreat.jpg" alt="Folkhouse Retreat Website">
+        </div>
+    </section>
+    
+    <section id="internship">
+        <h2>Internship</h2>
+        <p>Completed an internship in WV, focusing on <strong>Asian Studies</strong>.</p>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Connect with me on <a href="https://www.linkedin.com/in/silas-fair/">LinkedIn</a></p>
+        <p>Check out my projects on <a href="https://github.com/SilasFair121221?tab=repositories">GitHub</a></p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2023 Silas Fair</p>
+    </footer>
+</body>
+</html>
