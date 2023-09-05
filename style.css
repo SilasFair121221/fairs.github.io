@@ -1,0 +1,69 @@
+    /* Reset padding and margins */
+    body, h1, h2, h3, p, ul, li {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        background-color: #f8f8f8;
+        color: #323b3e;
+    }
+
+    header {
+        background-color: #3da7ac;
+        color: #fff;
+        text-align: center;
+        padding: 2rem 0;
+    }
+
+    nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        background-color: #2a7275;
+        padding: 1rem 0;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: rgb(239, 239, 239);
+        padding: 0.5rem 1rem;
+        transition: background-color 0.3s;
+    }
+
+    nav a:hover {
+        background-color: #444;
+    }
+
+    /* Project section  */
+    .project {
+        margin: 2rem;
+        padding: 1.5rem;
+        border: 1px solid #cee1e3;
+        background-color: #ffffff;
+        box-shadow: 0 2px 4px #0b2628;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .project h3 {
+        color: #555;
+    }
+
+    .project img {
+        max-width: 100%;
+        height: auto;
+        margin-top: 1rem;
+        border-radius: 5px;
+    }
+
+    /* set Footer style */
+    footer {
+        background-color: #3da7ac;
+        color: #fff;
+        text-align: center;
+        padding: 1rem 0;
+    }
