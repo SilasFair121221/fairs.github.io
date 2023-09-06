@@ -4,6 +4,19 @@
         padding: 0;
     }
     
+    header {
+        display: flex;
+        align-items: center;
+    }
+
+    img {
+        width: 20%;
+    }
+
+    h1, p {
+        margin-left: 10px; /* Adjust the margin as needed */
+    }
+    
     body {
         font-family: Arial, sans-serif;
         line-height: 1.6;
